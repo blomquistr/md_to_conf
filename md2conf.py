@@ -1208,7 +1208,7 @@ def main():
 
     html = process_refs(html)
 
-    # LOGGER.debug("html: %s", html)
+    LOGGER.debug("html: %s", html)
 
     if SIMULATE:
         LOGGER.info("Simulate mode is active - stop processing here.")
